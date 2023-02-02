@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    transition: all .5s linear;
+
+}
+.top-wrapper{
+    width: 100%;
+    position: fixed;
+    z-index: 9;
+}
+ 
+.flag-img{
+    height: 15px;
+    width: 15px;
+    
+}
+.flag ul li{
+    display: inline;
+}
+.first-container{
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    background-color:  #00b7c2;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.container-content a ,i{
+    color: white;
+    padding: 0 8px;
+}
+.container-content a:hover{
+    color: black;
+}
+.second-container{
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+}
+.select-language-container{
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+.select-language-container i{
+    padding-left: 30px;
+}
+#lang{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 19px;
+    margin: 5px 0;
+}
+.nav-bar2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    background-color: beige;
+}
+.logo-container{
+    padding: 5px 0;
+    display: flex;
+}
+.logo-nft{
+    height: 50px;
+    width: 150px;
+}
+
+.menu-items{
+    display: inline;
+    padding: 0 10px;
+}
+
+.menu-items:hover > .sub-menu{
+    display: block;
+    position: absolute;
+
+}
+
+.sub-menu{
+    padding: 20px;
+    display: none;
+}
+.content-section{
+    background-image: url('../images/pexels-motional-studio-1081685.jpg');
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+}
+.content-wrapper{
+   padding: 99px;
+   height: 65vh;
+   display: flex;
+   align-items: center;
+}
+.nft-studio{
+    padding-top: 70px;
+    width: 40%;
+}
+.nft-studio h1{
+    font-weight: bold;
+    font-size: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+.nft-studio p{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.nft-studio h3 i{
+    padding: 0;
+    color: #ffeb3b;
+    font-size: 20px;
+}
+.view-story-btn{
+    margin: 20px 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background-image: linear-gradient(45deg, #673ab7,#e91e63);
+}
+.view-story-btn:hover{
+    cursor: pointer;
+    color: white;
+    background-image: linear-gradient(to right, #00b7c2, #00b7c2);
+}
+.generative-arts-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #210228;
+}
+.generative-arts-text{
+    padding: 50px 20px;
+}
+.generative-arts-text h1, p{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.generative-arts-text h1{
+    font-size: 50px;
+}
+.generative-arts-text p{
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.generative-arts-image{
+    filter: blur(0);
+}
+.generative-arts-image:hover{
+    filter: blur(7px);
+}
+.generative-arts-image img{
+    height: 100%;
+    width: 100%;
+}
+
+#designer-text{
+    padding: 10px 5px;
+    color: #00b7c2;
+    font-family: 'Caveat', cursive;
+    font-size: 40px;
+}
+
+.art-library-section{
+    padding: 100px 0 0 0; 
+    background-color: #b94a23;
+}
+
+.header{
+    padding: 10px 20px;
+    color: #e5c201;
+    font-family: 'Caveat', cursive;
+    font-size: 50px;
+}
+
+.text-image-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-text-section, .right-text-section{
+    width: 30%;
+    padding: 0 20px;
+}
+.left-text-section{
+    padding-bottom: 70px;
+}
+.right-text-section{
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+.image-section img{
+    height: 300px;
+    width: 400px;
+}
+.left-text-section h1 ,p{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.left-text-section p{
+    line-height: 40px;
+    font-size: 20px;
+}
+.left-text-section h1{
+    padding: 5px 0;
+}
+.right-text-section h1,p{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.right-text-section p{
+    line-height: 40px;
+    font-size: 20px;
+}
+.right-text-section h1{
+    padding: 0 5px;
+}
+.card-page{
+   background: url('../images/starry\ sky.jpg');
+}
+.page-header-text{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.page-header-text h1{
+    position: relative;
+}
+
+.page-header-text h1::after{
+    content: " ";
+    background-color: #fff;
+    height: 2px;
+    width: 100px;
+    left: 45%;
+    position: absolute;
+    margin-top: 100px;
+}
+
+.card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.flip-card {
+    background-color: transparent;
+    width: 30%;
+    height: 300px;
+    margin: 20px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-card-front img{
+    height: 100%;
+    width: 100%;
+  }
+  .flip-card-back {
+    background-color: black;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  .marketing{
+    background-color: coral;
+    padding: 20px 0;
+  }
+  .marketing-header{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+  }
+  .marketing-header h1{
+    position: relative;
+}
+
+.marketing-header h1::after{
+    content: " ";
+    background-color: #fff;
+    height: 2px;
+    width: 100px;
+    left: 45%;
+    position: absolute;
+    margin-top: 100px;
+}
+.marketing-image{
+    padding: 10px;
+}
+.marketing-image img{
+    height: 400px;
+    width: 700px;
+}
+
+.marketing-text h1{
+    font-size: 60px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.marketing-text p{
+    color: white;
+    font-size: 20px;
+    line-height: 40px;
+}
+.marketing-image-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.media-marketing{
+    background-color: #A3B900;
+}
+.media-image-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 90px;
+}
+.media-text h1{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.media-text p{
+    width: 50%;
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 35px;
+}
+.media-image img{
+    height: 450px;
+    padding: 40px 40px;
+}
+.content-marketing{
+    background-color: crimson;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+.content-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content-text h1{
+    font-size: 55px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+} 
+.content-text p{
+    font-size: 20px;
+    width: 70%;
+    line-height: 40px;
+    
+    
+}
+.light-page{
+    background-color: #103754;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.light-img{
+    background-color: #000;
+}
+.light-text{
+    width: 50%;
+}
+
+.light-text h1{
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 55px;
+    padding: 20px 10px;
+}
+
+.light-list-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.list{
+    list-style: none;
+}
+.list-1, .list-2{
+    width: 50%;
+}
+
+.list li{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+    font-size: 25px;
+    font-weight: 600;
+    margin: 30px 0;
+    color: #fff;
+}
+
+.list li i{
+    color: orange;
+}
+
